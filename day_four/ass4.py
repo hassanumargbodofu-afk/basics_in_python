@@ -7,17 +7,19 @@ print(coding)
 
 company = "Coding For All"
 
-print(company)
+print("company")
 
-length = company
+length ="company"
 print(len(length))
 
 print(company.upper())
 
 print(company.lower())
 
+print(company.capitalize())
 
+print(company.title())
 
-language = 'Python'
-pto = language[0:2] #
-print(pto) # Pto
+print(company.swapcase())
+
+print(company[7:14])
