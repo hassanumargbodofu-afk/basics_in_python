@@ -81,13 +81,13 @@ area = 3.14 * radius ** 2
 
 print(f"The area of a circle with radius {radius} is {area:.0f} meters square.")
 
-a = 8
-b = 6
+x = 8
+y = 6
 
-print(f"{a} + {b} = {a + b}")
-print(f"{a} - {b} = {a - b}")
-print(f"{a} * {b} = {a * b}")
-print(f"{a} / {b} = {a / b:.2f}")
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {x / y:.2f}")
 print(f"{a} % {b} = {a % b}")
 print(f"{a} // {b} = {a // b}")
 print(f"{a} ** {b} = {a ** b}")
