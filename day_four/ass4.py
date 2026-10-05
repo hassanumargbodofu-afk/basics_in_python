@@ -1,35 +1,35 @@
-# # exercise 4
-# string = 'thirty'+ ' ' + 'days' + ' ' + 'of' + ' ' + 'python'
-# print(string)
+# exercise 4
+string = 'thirty'+ ' ' + 'days' + ' ' + 'of' + ' ' + 'python'
+print(string)
 
-# coding = 'coding ' + ' ' + 'for' + ' ' + 'all'
-# print(coding)
+coding = 'coding ' + ' ' + 'for' + ' ' + 'all'
+print(coding)
 
-# company = "Coding For All"
+company = "Coding For All"
 
-# print(company)
+print(company)
 
-# length ="company"
-# print(len(length))
+length ="company"
+print(len(length))
 
-# print(company.upper())
+print(company.upper())
 
-# print(company.lower())
+print(company.lower())
 
-# print(company.capitalize())
+print(company.capitalize())
 
-# print(company.title())
+print(company.title())
 
-# print(company.swapcase())
+print(company.swapcase())
 
-# print(company[7:14])
+print(company[7:14])
 
-# print(company.find("Coding"))
+print(company.find("Coding"))
 
-# print(company.replace("Coding", "Python"))
+print(company.replace("Coding", "Python"))
 
-# python = "Python for Everyone"
-# print(python.replace("Python for Everyone", "Python for All"))
+python = "Python for Everyone"
+print(python.replace("Python for Everyone", "Python for All"))
 
 coding = 'Coding For All'
 print(coding.split())
@@ -74,3 +74,20 @@ libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 print("# " .join(libraries))
 
 print("I am enjoying this challenge.\nI just wonder what is next.")
+print(f"Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+
+radius = 10
+area = 3.14 * radius ** 2
+
+print(f"The area of a circle with radius {radius} is {area:.0f} meters square.")
+
+a = 8
+b = 6
+
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b:.2f}")
+print(f"{a} % {b} = {a % b}")
+print(f"{a} // {b} = {a // b}")
+print(f"{a} ** {b} = {a ** b}")
